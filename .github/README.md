@@ -741,64 +741,6 @@ baymax/
 └── CHANGELOG.md
 ```
 
----
-
-# 👥 Development Team
-
-BAYMAX is designed for a four-member team.
-
-### Member 1 — Windows Core
-
-Responsible for:
-
-- Canonical state
-- Event store
-- SQLite
-- Task engine
-- Task ownership
-- Checkpoints
-- Windows services
-
-### Member 2 — Android
-
-Responsible for:
-
-- Kotlin application
-- Compose UI
-- Local storage
-- Outbox
-- Synchronization client
-- Android capabilities
-- Android lifecycle handling
-
-### Member 3 — AI
-
-Responsible for:
-
-- Local LLM
-- Model gateway
-- RAG
-- Persistent memory
-- Context management
-- Agent orchestration
-- AI benchmarking
-
-### Member 4 — Network/Security/QA
-
-Responsible for:
-
-- WireGuard
-- Pairing
-- Discovery
-- Capability authorization
-- Security
-- Fuzz testing
-- Fault injection
-- CI/CD
-- Benchmarking
-
----
-
 # 🏗️ Development Methodology
 
 BAYMAX will be built incrementally.
@@ -982,42 +924,6 @@ Reject
  ↓
 No Device Action
 ```
-
----
-
-# 📚 Stage Documentation
-
-Every stage must create:
-
-```text
-docs/stages/STAGE_XX_<NAME>.md
-```
-
-Each report must contain:
-
-1. Objective
-2. Scope
-3. Architecture
-4. Dependencies
-5. Implementation
-6. Files changed
-7. API/protocol changes
-8. Data model
-9. Security considerations
-10. Failure handling
-11. Tests
-12. Verification results
-13. Performance measurements
-14. Challenges
-15. Root cause
-16. Solution
-17. Trade-offs
-18. Known limitations
-19. Reproduction instructions
-20. Evidence
-21. Interface for the next stage
-
----
 
 # 🌿 Git Workflow
 
@@ -1239,13 +1145,6 @@ See the [LICENSE](LICENSE) file for the complete license text.
 
 ---
 
-# 👨‍💻 Team
-
-**BAYMAX — Capstone Project**
-
-Built by a 4-member undergraduate engineering team.
-
----
 
 ## ⭐ Engineering Principle
 
